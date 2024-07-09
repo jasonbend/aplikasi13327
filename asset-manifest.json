@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/aplikasi-a11.2021.13327/static/css/main.a91dd0e0.css",
+    "main.js": "/aplikasi-a11.2021.13327/static/js/main.9f71f462.js",
+    "static/media/fotoprofil.jpg": "/aplikasi-a11.2021.13327/static/media/fotoprofil.401a307a54bb38ec22ce.jpg",
+    "index.html": "/aplikasi-a11.2021.13327/index.html",
+    "main.a91dd0e0.css.map": "/aplikasi-a11.2021.13327/static/css/main.a91dd0e0.css.map",
+    "main.9f71f462.js.map": "/aplikasi-a11.2021.13327/static/js/main.9f71f462.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a91dd0e0.css",
+    "static/js/main.9f71f462.js"
+  ]
+}
