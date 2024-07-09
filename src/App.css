@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
 }
 
 .App-link {
@@ -35,4 +35,89 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: Arial, sans-serif; /* Font default untuk aplikasi */
+  background-color: #f0f2f5; /* Warna latar belakang halaman */
+  color: #333; /* Warna teks default */
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+.App-header {
+  padding: 0;
+}
+
+/* navigasi */
+.navbar {
+  background-color: #282c34; /* Warna latar belakang navbar */
+  box-shadow: none; /* Hilangkan bayangan untuk navbar */
+  padding: 1rem 2rem; /* Padding navbar */
+}
+
+.navbar-brand {
+  color: #007bff; /* Warna teks untuk link navbar */
+  font-weight: bold; /* Ketebalan teks */
+  text-transform: uppercase; /* Huruf kapital */
+  margin-right: 1rem; /* Jarak kanan antara link navbar */
+  font-size: 1.25rem; /* Ukuran font untuk brand */
+}
+
+.navbar-brand:hover {
+  color: #0056b3; /* Warna teks saat dihover */
+}
+
+.nav-link {
+  color: #007bff; /* Warna teks untuk link */
+  margin: 0 1rem; /* Jarak horizontal antara link */
+}
+
+.nav-link:hover {
+  color: #0056b3; /* Warna teks saat dihover */
+}
+
+/*  container di Home dan About */
+.container {
+  max-width: 900px; /* Lebar maksimum konten */
+  margin-top: 2rem; /* Jarak atas konten */
+}
+
+/*  About */
+img {
+  border-radius: 50%; /* Membuat gambar profil menjadi bulat */
+  border: 3px solid #ddd; /* Border gambar */
+  padding: 5px; /* Padding gambar */
+}
+
+h1,
+h2 {
+  color: #f0f0f0; /* Warna teks untuk heading */
+}
+
+h2 {
+  margin-top: 1rem; /* Jarak atas heading */
+}
+
+p {
+  color: #c1c1c1; /* Warna teks untuk paragraf */
+  font-size: 1.1rem; /* Ukuran font untuk paragraf */
+}
+
+/* Gaya untuk daftar pengguna */
+.user-list {
+  margin-top: 2rem;
+}
+
+.list-group-item {
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+
+.list-group-item:hover {
+  background-color: #f9f9f9;
 }
